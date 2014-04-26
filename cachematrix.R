@@ -20,7 +20,8 @@ makeCacheMatrix <- function(x = matrix()) {
 
 ## The 2nd function checks if the inverse has already been calcualted
 ## and then returns the cached value.  If the inverse is not cached, 
-## the solve function is used to compute the inverse of the matrix.
+## the solve function is used to compute the inverse of the matrix and the 
+## value is cached.
 
 
 cacheSolve <- function(x, ...) {
